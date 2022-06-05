@@ -1,0 +1,7 @@
+CREATE TABLE booklist(id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT into  booklist VALUES (1,"I CAN DO ANYTING BY GUHAAD" , 5);
+insert into booklist VALUES (2,"American Dream",4);
+insert into booklist VALUES (3,"i can fly",3);
+
+select * from booklist;
