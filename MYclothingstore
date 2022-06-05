@@ -1,0 +1,11 @@
+// SIMPLE STORE FOR MY CLOTHES  
+CREATE TABLE store (id INTEGER PRIMARY KEY, itemname TEXT, myfovirate  integer , price INTEGER, aisle INTEGER);
+INSERT INTO store VALUES(1," white SHIRT", "YES", 90, 1),
+(2, "Black jeans","Yes" , 80,2),
+(3, "Pink T-shirt","NO", 50,3),
+(4, "bule T-shirt","yes",70,4),
+(5, " grey suite","No", 100,5);
+
+SELECT*from store;
+
+SELECT sum(price) from store where price>=20 order by price ;
